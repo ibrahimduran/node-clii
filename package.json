@@ -1,11 +1,13 @@
 {
   "name": "node-clii",
-  "version": "0.0.1-alpha",
+  "version": "0.1.0",
   "description": "CLI Framework for developing command-line based applications in NodeJS.",
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "build": "babel src --presets babel-preset-es2015 --out-dir dist"
+    "build": "npm run build-source && npm run build-examples",
+    "build-source": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "build-examples": "babel examples/es6 --presets babel-preset-es2015 --out-dir examples/es5"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,6 @@
   "homepage": "https://github.com/ibrahimeymenduran/node-clii#readme",
   "devDependencies": {
     "babel-cli": "^6.9.0",
-    "babel-preset-es2015": "^6.9.0"
+    "babel-preset-es2015": "^6.9.0",
   }
 }
