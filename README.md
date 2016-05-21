@@ -2,9 +2,10 @@
 CLI Framework for developing command-line based applications in NodeJS.
 
 ### TODO (v0.2.0)
+* [x] Command factories
+* [x] Command descriptions
 * [ ] Command arguments and options
 * [ ] Event ordering and interupting
-* [ ] Command descriptions
 * [ ] Automaticily generated help command
 
 ### Basic Usage
