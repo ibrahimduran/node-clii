@@ -1,6 +1,6 @@
 {
   "name": "node-clii",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "CLI Framework for developing command-line based applications in NodeJS.",
   "main": "./dist/index.js",
   "scripts": {
